@@ -1,0 +1,25 @@
+{
+  "name": "easy-argument-parser",
+  "version": "1.0.0",
+  "description": "Parse command line arguments into a Javascript object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImanMh/argument-parser.git"
+  },
+  "keywords": [
+    "nodejs",
+    "argument",
+    "parser",
+    "object"
+  ],
+  "author": "Iman Mohamadi <Iman@jsDecorator.com> (http://jsdecorator.com)",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/ImanMh/easy-argument-parser/issues"
+  },
+  "homepage": "https://github.com/ImanMh/easy-argument-parser#readme"
+}
