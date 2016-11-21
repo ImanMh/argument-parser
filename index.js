@@ -9,7 +9,7 @@ strippedArgs.forEach(function (argument) {
   while (key[index] === '-')
     index++;
   key = key.slice(index);
-  parsedArgs[key] = parsedArgs[key] ? value : true;
+  parsedArgs[key] = typeof value !== 'undefined' ? value : true;
 });
 
 module.exports = parsedArgs;
